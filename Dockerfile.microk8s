@@ -1,0 +1,5 @@
+FROM alpine:latest
+RUN apk update
+RUN apk add --no-cache curl git ca-certificates
+COPY k8s-okta-auth /
+ENTRYPOINT [ "/k8s-okta-auth" ]

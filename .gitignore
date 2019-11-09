@@ -1,0 +1,4 @@
+.vscode/*
+k8s-okta-auth
+start.sh
+helm/microk8s.yaml
